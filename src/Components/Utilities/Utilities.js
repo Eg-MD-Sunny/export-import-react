@@ -5,5 +5,9 @@ const add = (first,second) =>{
 const sub = (first,second) =>{
     return first - second;
 }
-export { add, sub };
+
+const multi = (first,second)=>{
+    return first * second;
+}
+export { add, sub, multi };
 
