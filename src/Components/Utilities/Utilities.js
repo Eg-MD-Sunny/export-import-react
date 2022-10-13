@@ -6,8 +6,13 @@ const sub = (first,second) =>{
     return first - second;
 }
 
-const multi = (first,second)=>{
+const multi = (first,second) =>{
     return first * second;
 }
-export { add, sub, multi };
+
+const div = (first,second) =>{
+    return first / second;
+}
+
+export { add, sub, multi, div };
 
